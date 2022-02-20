@@ -1,0 +1,103 @@
+/*
+.scoreBoardEdgeRedCount {
+    display: inline-block;
+    color: red;
+    padding: 50px 110px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #61dafb;
+    background-size: 100% auto;
+}
+
+.scoreBoardEdgeBlackCount {
+    display: inline-block;
+    color: black;
+    !*padding: 50px 50px;
+    margin: 10px 10px;*!
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #61dafb;
+    background-size: 200% auto;
+    height: 200px;
+    width: 200px;
+}
+*/
+.scoreBoard{
+    display: inline-flex;
+    height: 230px;
+    width: 230px;
+    background-color: #61dafb;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    flex-direction: column;
+    font-size: xxx-large;
+    justify-content: center;
+}
+.scoreBoardRed{
+    display: inline-flex;
+    height: 230px;
+    width: 230px;
+    background-color: #61dafb;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    flex-direction: column;
+    font-size: xxx-large;
+    justify-content: center;
+    color: crimson;
+}
+.dataBoard {
+    display: inline-flex;
+    height: 210px;
+    width: 210px;
+    background-color: #61dafb;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.gradientButton {
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #61dafb;
+    background-size: 100% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.disabledGradientButton {
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #61dafb;
+    background-size: 100% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+    opacity: 30%;
+}
+.motherDiv {
+    display: flex;
+    justify-content: center;
+}
