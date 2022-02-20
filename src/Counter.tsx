@@ -1,6 +1,4 @@
 import React, {ChangeEvent, ChangeEventHandler, useState} from 'react';
-import {Scoreboard} from "./Scoreboard";
-import {Buttons} from "./Buttons";
 import './Layout.css'
 import {Scoreboard2} from "./Scoreboard2";
 import {UniversalButton} from "./UniversalButton";
