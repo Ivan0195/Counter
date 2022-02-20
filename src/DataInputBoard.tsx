@@ -16,9 +16,8 @@ export function DataInputBoard(props: DataInputBoardPropsType) {
                     onChange={props.onChangeStartHandler}
                     type={"number"}
                     helperText={props.error && 'Incorrect Value'}
-                    title={'Type Start Value'}
                     variant={'filled'}
-                    label={'Type Start Count Value'}
+                    label={'Type Start Value'}
                     size={'small'}
                     error={props.error}
                     color={'primary'}
@@ -29,9 +28,8 @@ export function DataInputBoard(props: DataInputBoardPropsType) {
                     onChange={props.onChangeLimitHandler}
                     type={"number"}
                     helperText={props.error && 'Incorrect Value'}
-                    title={'Type Start Value'}
                     variant={'filled'}
-                    label={'Type Start Count Value'}
+                    label={'Type Limit Value'}
                     size={'small'}
                     error={props.error}
                     color={'primary'}
